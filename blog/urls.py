@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path
-from views import page_handler
+from .views import *
 urlpatterns = [
-    path('a', page_handler),
+    path('', page_handler),
 ]
