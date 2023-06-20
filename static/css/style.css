@@ -25,7 +25,21 @@
  21.Responsive part
 -------------------------------------------------*/
 
+.email-button {
+    background-color: black;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
 
+    .email-button:hover {
+        background-color: white;
+    }
 
 /* import google fonts */
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|Poppins:300,400,500,600,700");
@@ -346,19 +360,19 @@ section.page-banner-section {
     margin: 0; }
 
 section.page-banner-section.contact {
-  background: url("../upload/banners/ban2.jpg"); }
+  background: url("../upload/banners/grey.jpg"); }
 
 section.page-banner-section.portfolio {
-  background: url("../upload/banners/ban3.jpg"); }
+  background: url("../static/upload/banners/grey.jpg"); }
 
 section.page-banner-section.blog {
   background: url("../upload/banners/grey.jpg"); }
 
 section.page-banner-section.services {
-  background: url("../upload/banners/ban5.jpg"); }
+  background: url("../static/upload/banners/grey.jpg"); }
 
 section.page-banner-section.about {
-  background: url("../upload/banners/ban6.jpg"); }
+  background: url("../static/upload/banners/grey.jpg"); }
 
 /*------------------------------------------------- */
 /* =  Services sections
@@ -386,7 +400,7 @@ section.services-section {
     section.services-section .services-box2 .half-box-side {
       float: left;
       width: 50%;
-      background: url("../upload/banners/ban.jpg");
+      background: url("../static/upload/banners/grey.jpg");
       padding: 150px 20px 150px; }
       section.services-section .services-box2 .half-box-side .inner-box {
         padding: 140px 10px;
@@ -456,7 +470,7 @@ section.services-section2 {
 
 section.services-section3 {
   padding: 90px 0;
-  background: url("../upload/banners/banner.jpg") fixed; }
+  background: url("../static/upload/banners/grey.jpg") fixed; }
   section.services-section3 .title-section h2 {
     color: #ffffff; }
   section.services-section3 .services-box .services-post {
@@ -647,7 +661,7 @@ section.features-section {
 /* =  Team Sections */
 /*------------------------------------------------- */
 section.team-section {
-  background: url("../upload/banners/ban1.jpg"); }
+  background: url("../static/upload/banners/grey.jpg"); }
   section.team-section .team-box {
     overflow: hidden; }
     section.team-section .team-box .half-box-side {
@@ -949,7 +963,7 @@ section.about-us-section2 .about-box {
 /*------------------------------------------------- */
 section.testimonial-section {
   padding: 90px 0;
-  background: url("../upload/banners/banner2.jpg") center fixed; }
+  background: url("../static/upload/banners/banner2.jpg") center fixed; }
   section.testimonial-section .testimonial-box {
     text-align: center; }
     section.testimonial-section .testimonial-box p {
