@@ -6,3 +6,6 @@ def page_handler(request):
 
 def page_handler_contact(request):
     return render(request, 'contact.html')
+
+def page_handler_home(request):
+    return render(request, 'home.html')
