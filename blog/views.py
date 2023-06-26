@@ -9,3 +9,6 @@ def page_handler_contact(request):
 
 def page_handler_home(request):
     return render(request, 'home.html')
+
+def page_handler_about(request):
+    return render(request, 'about.html')

@@ -6,4 +6,5 @@ urlpatterns = [
     path('contact', page_handler_contact),
     path('home', page_handler_home),
     path('blog', page_handler),
+    path('about', page_handler_about)
 ]

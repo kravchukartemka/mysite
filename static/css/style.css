@@ -365,13 +365,13 @@ section.page-banner-section.portfolio {
   background: url("../static/upload/banners/grey.jpg"); }
 
 section.page-banner-section.blog {
-  background: url("../upload/banners/grey.jpg"); }
+  background: url("../banners/grey.jpg"); }
 
 section.page-banner-section.services {
-  background: url("../static/upload/banners/grey.jpg"); }
+  background: url("../upload/banners/grey.jpg"); }
 
 section.page-banner-section.about {
-  background: url("../static/upload/banners/grey.jpg"); }
+  background: url("../upload/banners/grey.jpg"); }
 
 /*------------------------------------------------- */
 /* =  Services sections
@@ -399,7 +399,7 @@ section.services-section {
     section.services-section .services-box2 .half-box-side {
       float: left;
       width: 50%;
-      background: url("../static/upload/banners/grey.jpg");
+      background: url("../upload/banners/grey.jpg");
       padding: 150px 20px 150px; }
       section.services-section .services-box2 .half-box-side .inner-box {
         padding: 140px 10px;
@@ -469,7 +469,7 @@ section.services-section2 {
 
 section.services-section3 {
   padding: 90px 0;
-  background: url("../static/upload/banners/grey.jpg") fixed; }
+  background: url("../upload/banners/grey.jpg") fixed; }
   section.services-section3 .title-section h2 {
     color: #ffffff; }
   section.services-section3 .services-box .services-post {
@@ -660,7 +660,7 @@ section.features-section {
 /* =  Team Sections */
 /*------------------------------------------------- */
 section.team-section {
-  background: url("../static/upload/banners/grey.jpg"); }
+  background: url("../upload/banners/grey.jpg"); }
   section.team-section .team-box {
     overflow: hidden; }
     section.team-section .team-box .half-box-side {
@@ -962,7 +962,7 @@ section.about-us-section2 .about-box {
 /*------------------------------------------------- */
 section.testimonial-section {
   padding: 90px 0;
-  background: url("../static/upload/banners/banner2.jpg") center fixed; }
+  background: url("../upload/banners/grey.jpg") center fixed; }
   section.testimonial-section .testimonial-box {
     text-align: center; }
     section.testimonial-section .testimonial-box p {
