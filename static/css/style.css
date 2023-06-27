@@ -950,10 +950,10 @@ section.about-us-section2 .about-box {
   background: #f9f9f9;
   border-top: 1px solid #eeeeee; }
   section.about-us-section2 .about-box .about-post {
-    float: left;
+    float: right;
     width: 25%;
     border-right: 1px solid #eeeeee;
-    padding: 100px; }
+    padding: 120px; }
     section.about-us-section2 .about-box .about-post p {
       margin-bottom: 0; }
 
@@ -1534,7 +1534,7 @@ footer {
   section.team-section .team-box .half-box-side .inner-box {
     padding: 87px 10px; }
   section.about-us-section2 .about-box .about-post {
-    padding: 60px; }
+    padding: 110px; }
   #map {
     height: 500px; } }
 
