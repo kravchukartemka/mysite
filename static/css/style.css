@@ -335,6 +335,7 @@ a.button-one:hover {
 
 a.button-two {
   color: #222222;
+  margin-bottom: 100px;
   font-size: 13px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -347,6 +348,7 @@ a.button-two {
   border-radius: 25px; }
 
 a.button-two:hover {
+  margin-bottom: 100px;
   background: #222222;
   color: #fff; }
 
@@ -811,9 +813,9 @@ section.blog-section {
       border: none; }
     section.blog-section .blog-box .blog-post span.category {
       display: inline-block;
-      margin-bottom: 15px; }
+      margin-bottom: 50px; }
     section.blog-section .blog-box .blog-post h2 {
-      margin-bottom: 15px; }
+      margin-bottom: 50px; }
       section.blog-section .blog-box .blog-post h2 a {
         color: #222222; }
       section.blog-section .blog-box .blog-post h2 a:hover {

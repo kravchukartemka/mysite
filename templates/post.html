@@ -60,20 +60,13 @@
                     <div class="blog-box">
                         <div class="blog-post">
                             {% block content %}
-                            <span class="category">Interior, Photos, Design</span>
-                            {% for post in posts %}
                             <h2><a href="single-post.html">{{ post.title }}</a></h2>
                             <ul class="post-meta">
                                 <li>
                                     {{ post.publish }}
                                 </li>
-                                <li>
-                                    by <a href="#">{{ post.author }}</a>
-                                </li>
                             </ul>
                             <p> {{ post.body }} </p>
-                            <a class="button-two" href="{{ post.slug }}">Continue Reading</a>
-                            {% endfor %}
                             {% endblock %}
                         </div>
                     </div>
