@@ -59,11 +59,13 @@
                 <div class="col-md-8">
                     <div class="blog-box">
                         <div class="blog-post">
+                            {% block content %}
                             <span class="category">Interior, Photos, Design</span>
-                            <h2><a href="single-post.html">Aliquam tincidunt mauris eu risus.</a></h2>
+                            {% for post in posts %}
+                            <h2><a href="single-post.html">{{ post.title }}</a></h2>
                             <ul class="post-meta">
                                 <li>
-                                    16 May 2016
+                                    {{ post.publish }}
                                 </li>
                                 <li>
                                     by <a href="#">Admin</a>
@@ -74,6 +76,8 @@
                             </ul>
                             <p>Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. </p>
                             <a class="button-two" href="single-post.html">Continue Reading</a>
+                            {% endfor %}
+                            {% endblock %}
                         </div>
                     </div>
                 </div>
