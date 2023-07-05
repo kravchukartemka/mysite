@@ -6,12 +6,20 @@ def post_detail(request, id):
     post = Post.objects.get(id=id)
     return render(request, 'post.html', {'post': post})
 
-def post(self, request):
-    form = UserForm(request.POST)
-    if form.is_valid():
-        form = form.save(commit=False)
-        form.save()
-        return render(request, 'registration.html')
+def registr(request):
+    if request.method == 'POST':
+        form = UserForm(request.POST)
+        if form.is_valid():
+            try:
+                form.save()
+                return redirect('home')
+            except:
+                form.add_error(None,'Ошибка удаления поста')
+    else:
+        form = UserForm()
+    # form = UserForm(request.POST)
+    # form.save()
+    return render(request, 'registration.html', {'form': form})
 def post_list(request):
     posts = Post.published.all()
     return render(request,
