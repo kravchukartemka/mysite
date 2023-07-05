@@ -7,7 +7,7 @@ class User(models.Model):
     email = models.EmailField(unique=True)
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
-    is_activ = models.BooleanField()
+    is_activ = models.BooleanField(default=False)
     created_time = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
